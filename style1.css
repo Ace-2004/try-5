@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 15;
+    font-family: inherit;
+    box-sizing: border-box;    
+}
+.container{
+    width: 100%;
+    display: block;
+    min-height: 100vh;
+    height: 100vw;
+    background-image: url(images/nextgen.jpeg);
+    background-position: center;
+    border-image-slice: fill;
+    background-size: cover;
+    padding: 0.5 0.5%;
+}
+.logo{
+    max-width: 100%;
+    display: block;
+    width: 450px;
+    padding: 2px;
+    cursor: pointer;
+}
+.content{
+    top: 45%;
+    padding: 50px;
+    position: absolute;
+    transform: translateY(-50%);
+    color: black;       
+}
+.content h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+.content h1 span{
+    color: orangered;
+}
+.content button{
+    background: transparent;
+    border: 2px solid #ff5354;
+    outline: none;
+    padding: 12px 25px;
+    color:navy;
+    font-size: 15px;  
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.content button:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 0.5s;
+}
+.mailto:info@nextgenresidentials.com{
+    font-size: 75px;
+    font-size-adjust: auto;
+    font-style: normal;
+    position: relative;
+    padding: 10px 20px;
+}
+
+@media only screen and (max-width: 600px){
+   .container{
+    width: 100%;
+    }
+    
+}
+
+@media only screen and (min-width: 601px){
+   .container{
+    width: 100%;
+    }
+    
+}
+
+@media only screen and (min-width: 768px){
+   .container{
+    width: 100%;
+    }
+    
+}
+
+@media only screen and (min-width: 992px){
+   .container{
+    width: 100%;
+    }
+    
+}
+
+@media only screen and (min-width: px){
+   .container{
+    width: 100%;
+    }
+    
+}
+
+
